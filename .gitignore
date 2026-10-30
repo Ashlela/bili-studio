@@ -1,0 +1,42 @@
+# ---- 凭据：永远不要入库 ----
+credentials.json
+.bili-ai/
+.sessdata
+bili_jct
+.env
+*.token
+
+# ---- 产物：视频/音频/字幕/封面，都是可再生的 ----
+*.mp4
+*.mov
+*.mkv
+*.mp3
+*.m4a
+*.wav
+*.ass
+*.srt
+*.png
+*.jpg
+out/
+build/
+media/
+
+# ---- 依赖与运行时 ----
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.tools/
+py/
+py2/
+
+# ---- 抓取/调试产物 ----
+play.json
+view.json
+opus.html
+*.log
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db

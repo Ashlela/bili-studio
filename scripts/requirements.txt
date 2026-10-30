@@ -1,0 +1,5 @@
+# edge-tts 只装进本地 target 目录（<repo>/../.tools/py）即可，不必进 venv
+edge-tts==7.3.1
+
+# 投稿用；import 名是 bilibili_api，发行包名是 bilibili-api-python
+bilibili-api-python==17.4.2
